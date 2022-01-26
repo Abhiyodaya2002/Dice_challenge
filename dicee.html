@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body> 
+
+    <div class="container">
+      <h1>Refresh Me</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" id="firstimg" src="images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" id="secimg" src="images/dice6.png">
+      </div>
+
+    </div>
+
+    <script>
+      var a=Math.floor(Math.random()*6)+1;
+      var b=Math.floor(Math.random()*6)+1;
+      if(a>b) //condition
+      {
+       document.querySelector(".container h1").innerHTML="Player 1 Wins! ❤️";
+       if(a==1)
+       {
+        document.getElementById("firstimg").src="images/dice1.png";
+       }
+       if(a==2)
+       {
+        document.getElementById("firstimg").src="images/dice2.png";
+       }
+       if(a==3)
+       {
+        document.getElementById("firstimg").src="images/dice3.png";
+       }
+       if(a==4)
+       {
+        document.getElementById("firstimg").src="images/dice4.png";
+       }
+       if(a==5)
+       {
+        document.getElementById("firstimg").src="images/dice5.png";
+       }
+       if(a==6)
+       {
+        document.getElementById("firstimg").src="images/dice6.png";
+       }
+
+       if(b==1)
+       {
+        document.getElementById("secimg").src="images/dice1.png";
+       }
+       if(b==2)
+       {
+        document.getElementById("secimg").src="images/dice2.png";
+       }
+       if(b==3)
+       {
+        document.getElementById("secimg").src="images/dice3.png";
+       }
+       if(b==4)
+       {
+        document.getElementById("secimg").src="images/dice4.png";
+       }
+       if(b==5)
+       {
+        document.getElementById("secimg").src="images/dice5.png";
+       }
+       if(b==6)
+       {
+        document.getElementById("secimg").src="images/dice6.png";
+       }
+      }
+      else if(a<b)  //condition
+      {
+        document.querySelector(".container h1").innerHTML="Player 2 Wins! ❤️";
+
+        if(a==1)
+       {
+        document.getElementById("firstimg").src="images/dice1.png";
+       }
+       if(a==2)
+       {
+        document.getElementById("firstimg").src="images/dice2.png";
+       }
+       if(a==3)
+       {
+        document.getElementById("firstimg").src="images/dice3.png";
+       }
+       if(a==4)
+       {
+        document.getElementById("firstimg").src="images/dice4.png";
+       }
+       if(a==5)
+       {
+        document.getElementById("firstimg").src="images/dice5.png";
+       }
+       if(a==6)
+       {
+        document.getElementById("firstimg").src="images/dice6.png";
+       }
+
+       if(b==1)
+       {
+        document.getElementById("secimg").src="images/dice1.png";
+       }
+       if(b==2)
+       {
+        document.getElementById("secimg").src="images/dice2.png";
+       }
+       if(b==3)
+       {
+        document.getElementById("secimg").src="images/dice3.png";
+       }
+       if(b==4)
+       {
+        document.getElementById("secimg").src="images/dice4.png";
+       }
+       if(b==5)
+       {
+        document.getElementById("secimg").src="images/dice5.png";
+       }
+       if(b==6)
+       {
+        document.getElementById("secimg").src="images/dice6.png";
+       }
+      }
+      else if(a==b) //condition
+      {
+        document.querySelector(".container h1").innerHTML="Draw!";
+
+        if(a==1)
+       {
+        document.getElementById("firstimg").src="images/dice1.png";
+       }
+       if(a==2)
+       {
+        document.getElementById("firstimg").src="images/dice2.png";
+       }
+       if(a==3)
+       {
+        document.getElementById("firstimg").src="images/dice3.png";
+       }
+       if(a==4)
+       {
+        document.getElementById("firstimg").src="images/dice4.png";
+       }
+       if(a==5)
+       {
+        document.getElementById("firstimg").src="images/dice5.png";
+       }
+       if(a==6)
+       {
+        document.getElementById("firstimg").src="images/dice6.png";
+       }
+
+       if(b==1)
+       {
+        document.getElementById("secimg").src="images/dice1.png";
+       }
+       if(b==2)
+       {
+        document.getElementById("secimg").src="images/dice2.png";
+       }
+       if(b==3)
+       {
+        document.getElementById("secimg").src="images/dice3.png";
+       }
+       if(b==4)
+       {
+        document.getElementById("secimg").src="images/dice4.png";
+       }
+       if(b==5)
+       {
+        document.getElementById("secimg").src="images/dice5.png";
+       }
+       if(b==6)
+       {
+        document.getElementById("secimg").src="images/dice6.png";
+       }
+      }
+    </script>
+
+  <!-- <script src="script.js">  </script>   --> 
+  </body>
+
+  <footer>
+    Made with ❤️ by Abhiyodaya Pandey.
+  </footer>
+</html>
